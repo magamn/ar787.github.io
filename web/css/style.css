@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
+.mycont{
+    background-color: #d5edfe;
+}
+header{
+    background-color: #d5edfe;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.my-col{
+    padding: 0;
+}
+.text-box{
+    width: 100%;
+}
+.text-box span{
+    font-size: 60px;
+    color: #ef2097;
+}
+
+header img{
+    height: 100vh;
+}
+.btn{
+    background-color: #ef2097;
+    color: white;
+}
+.skills{
+    padding:90px 0;
+}
+.progress span{
+    padding-right: 50px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.progress-bar{
+    background-color:#376cac;
+}
+h2{
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+    color: #04264f;
+}
+#portfolio .row{
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+footer{
+    background-color: #d5edfe;
+    min-height: 70px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 990px) {
+ .text-box{
+    text-align: center;
+    padding: 50px 0;
+    }
+    
+}
+@media only screen and (max-width: 655px) {
+ h4{
+     font-size: 1rem;
+    }
+    
+}
+
